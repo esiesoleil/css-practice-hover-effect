@@ -1,0 +1,70 @@
+.dws_wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.email_box {
+	width: 40px;
+	height: 40px;
+	background-color: #f0fcfb;
+	border: 1px solid #2ec1f9;
+	border-radius: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 10px;
+}
+
+.email_box:hover {
+	width: 250px;
+	transition: 0.4s;
+	background-color: #fff;
+}
+
+.email_box:hover > .email_ico {
+	background: #ade5e0;
+}
+
+.email_text {
+	color: #9e9e9e;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 0;
+	width: 0;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.email_box:hover > .email_text {
+	opacity: 1;
+	transition: 0.4s;
+	width: 200px;
+
+}
+
+.email_text:hover {
+	text-decoration: underline;
+	color: #0d394b ;
+}
+
+.email_ico {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	transition: 0.4s;
+}
+
+.email_ico svg {
+	display: block;
+	width: 17px;
+	height: 17px;
+}
+
+.email_ico path {
+	color: #0d394b
+}
